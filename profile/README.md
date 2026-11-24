@@ -27,6 +27,7 @@ Raw model intelligence is only ~20% of a production agent; the remaining 80% is 
 
 ### 🚀 Project
 - **[Data Extractor](https://github.com/NALIWANAGAN/AI-ENG-P1) 📕**: A self-correcting data extraction service that converts PDF invoices into validated PostgreSQL entries, using an LLM that acts through a sandboxed MCP server. Every generated query passes a deterministic sqlglot guardrail and a least-privilege database role, and failed queries are returned to the model with the database error so it can fix them.
+- **[Read-Only Codebase & Schema Auditor](https://github.com/NALIWANAGAN/AI-ENG-P2) 🔎**: A read-only codebase database schema auditor that uses parallel tool calling to read and analyse codebase and generate a report. Imposing a guardrails to track repeated actions, sandboxing, and redacting the model's environment and output.
 
 ---
 
